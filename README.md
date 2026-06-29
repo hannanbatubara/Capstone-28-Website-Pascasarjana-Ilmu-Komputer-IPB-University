@@ -1,5 +1,5 @@
 # Capstone-28
-# Website Pascasarjana Ilmu Komputer IPB University
+# Website Pascasarjana Ilmu Komputer IPB University**
 
 ![WordPress](https://img.shields.io/badge/Platform-WordPress-21759b?style=for-the-badge&logo=wordpress&logoColor=white)
 ![WPBakery](https://img.shields.io/badge/Page_Builder-WPBakery-eceff1?style=for-the-badge)
@@ -9,7 +9,7 @@
 
 ---
 
-##  Catatan Hak Akses & Konfidensialitas (Confidentiality Notice)
+## Catatan Hak Akses & Konfidensialitas (Confidentiality Notice)
 Pengembangan sistem informasi ini dilakukan secara langsung pada infrastruktur resmi milik institusi. Demi menjaga keamanan informasi, privasi data akademik, serta mematuhi kebijakan pembatasan akses server (*cPanel, Hosting, & Database*) yang dikelola oleh pihak IT Kampus, **source code inti WordPress, konfigurasi server, dan basis data (database) tidak dipublikasikan dalam repositori ini**. 
 
 Repositori ini difungsikan sepenuhnya sebagai **dokumentasi arsitektur sistem, keputusan desain antarmuka (UI/UX), repositori aset visual, serta implementasi kustomisasi front-end** dari proyek yang telah diselesaikan.
@@ -23,11 +23,34 @@ Pengembangan website ini berfokus pada penyusunan struktur navigasi yang efisien
 
 ---
 
+## Struktur Situs (Sitemap & Information Architecture)
+Untuk memastikan pengguna (mahasiswa, dosen, dan calon pendaftar) dapat menemukan informasi dengan cepat, website ini dirancang dengan arsitektur informasi sebagai berikut:
+
+1. **Profil**
+   * **Program Magister Ilmu Komputer** (Visi, Misi dan Capaian Pembelajaran | Profil Pengelola | Profil Dosen | Penyelenggaraan Program Khusus)
+   * **Program Doktor Ilmu Komputer** (Visi, Misi dan Capaian Pembelajaran Program | Profil Pengelola | Profil Dosen)
+2. **Akademik**
+   * **Program Magister Ilmu Komputer** (Kurikulum Program Reguler | Kurikulum by *Research* | Deskripsi Mata Kuliah)
+   * **Program Doktor Ilmu Komputer** (Kurikulum Program Reguler | Kurikulum by *Research* | Deskripsi Mata Kuliah)
+3. **Kemahasiswaan dan Alumni**
+   * Survei Kepuasan
+   * Himpunan Alumni MKOM & Himpunan Alumni S3 KOM
+   * Studi Pelacakan Alumni MKOM & Studi Pelacakan Alumni S3 KOM
+4. **Admisi**
+   * Persyaratan, Jalur dan Biaya Pendidikan (Terintegrasi ke portal pendaftaran IPB)
+   * Prosedur Wawancara S3 KOM
+5. **Unduh Dokumen**
+   * **Program Magister Ilmu Komputer** (Template Dokumen Akademik | Sertifikat Akreditasi)
+   * **Program Doktor Ilmu Komputer** (Template Dokumen Akademik | Sertifikat Akreditasi)
+   * Panduan Penulisan TA (Tugas Akhir)
+
+---
+
 ## Fitur & Fungsionalitas Utama
 
 ### 1. Navigasi Terstruktur (Multi-level Dropdown)
 * Sistem navigasi dirancang dengan arsitektur multi-level untuk memisahkan informasi secara spesifik. Terdapat pengelompokan yang jelas antara **Profil** dan **Akademik**, yang kemudian bercabang secara spesifik untuk **Program Magister** dan **Program Doktor**.
-* Navigasi akademik mengakomodasi pemisahan jalur studi, seperti *Kurikulum by Course*, *Kurikulum by Research*, serta rincian *Deskripsi Mata Kuliah*.
+* Navigasi akademik mengakomodasi pemisahan jalur studi, seperti *Kurikulum Program Reguler*, *Kurikulum by Research*, serta rincian *Deskripsi Mata Kuliah*.
 
 ### 2. Manajemen Direktori & Konten Akademik
 * **Halaman Identitas Program:** Penyajian halaman Mandat, Visi, Misi, dan Tujuan yang menggunakan tipografi rapi dan konsisten dengan warna identitas institusi.
@@ -39,7 +62,11 @@ Pengembangan website ini berfokus pada penyusunan struktur navigasi yang efisien
 * **Portal Himpunan Alumni:** Halaman dedikasi yang memuat informasi kepengurusan dan struktur organisasi Himpunan Alumni Magister dan Doktor.
 * **Studi Pelacakan (Tracer Study):** Sistem informasi dan publikasi terkait pelacakan jejak karier alumni sebagai bentuk pemenuhan Indikator Kinerja Utama (IKU) dan kebutuhan akreditasi institusi.
 
-### 4. Aspek Teknis & Kustomisasi
+### 4. Pusat Unduhan & Admisi
+* Penyediaan akses langsung ke *template* dokumen akademik, pedoman penulisan Tugas Akhir, serta sertifikat akreditasi program studi.
+* Pengarahan (*routing*) alur admisi yang terpusat menuju portal resmi pendaftaran institusi.
+
+### 5. Aspek Teknis & Kustomisasi
 * **Kustomisasi Tampilan Khusus:** Penyesuaian elemen antarmuka menggunakan kustomisasi kode HTML, CSS, dan JavaScript tanpa mengubah *core files* WordPress agar sistem tetap aman dan *upgradeable*.
 * **Responsive Layout:** Dioptimalkan secara penuh untuk aksesibilitas lintas perangkat (Desktop, Tablet, dan Smartphone).
 
@@ -48,14 +75,14 @@ Pengembangan website ini berfokus pada penyusunan struktur navigasi yang efisien
 ## Perancangan Antarmuka (UI/UX Aspect)
 Proses perancangan dan implementasi antarmuka pada website ini didasarkan pada prinsip-prinsip berikut:
 
-1. **Hierarki Informasi yang Jelas:** Menyusun tata letak konten berdasarkan prioritas kebutuhan pengguna (misal: kurikulum dan pendaftaran dibuat lebih mudah diakses).
+1. **Hierarki Informasi yang Jelas:** Menyusun tata letak konten berdasarkan prioritas kebutuhan pengguna.
 2. **Identitas Visual Institusi:** Menggunakan palet warna resmi IPB University sebagai warna utama (*primary color*) untuk menjaga konsistensi brand dan kesan formal.
 3. **Layout Berbasis Grid:** Penerapan struktur grid yang rapi, terutama pada halaman daftar dosen dan kartu (*card*) informasi, untuk meningkatkan keterbacaan (*readability*).
 4. **Interaktivitas & Konsistensi UI:** Penyesuaian efek *hover*, desain tombol (*button*), struktur *header*, dan tipografi yang seragam di seluruh halaman guna menciptakan pengalaman navigasi yang intuitif.
 
 ---
 
-## Tech Stack & Plugins
+## 🛠️ Tech Stack & Plugins
 
 ### Core Technologies
 * **Platform:** WordPress (CMS)
@@ -71,7 +98,7 @@ Proses perancangan dan implementasi antarmuka pada website ini didasarkan pada p
 
 ---
 
-## 📂 Struktur Repositori
+## Struktur Repositori
 Untuk melengkapi transparansi proyek, repositori ini hanya memuat aset visual dan dokumentasi sebagai berikut:
 ```text
 ├── {Nama-File-Screenshot}.png/jpg    # Aset tangkapan layar antarmuka
