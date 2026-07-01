@@ -20,7 +20,7 @@
 
 > **PERINGATAN KERAHASIAAN (CONFIDENTIALITY NOTICE)**
 >
-> Repositori ini merupakan **dokumentasi portofolio teknis** yang disusun untuk kepentingan demonstrasi kompetensi profesional. Mengingat proyek ini dikembangkan dan dioperasikan secara langsung pada **server produksi (production environment)** milik Sekolah Pascasarjana Ilmu Komputer, IPB University, maka:
+> Repositori ini merupakan **dokumentasi tugas** yang disusun untuk kepentingan demonstrasi pengumpulan tugas. Mengingat proyek ini dikembangkan dan dioperasikan secara langsung pada **server produksi (production environment)** milik Sekolah Pascasarjana Ilmu Komputer, IPB University, maka:
 >
 > 1. **Source code inti** (PHP core, child-theme functions, custom plugin), **file konfigurasi server** (`.htaccess`, `wp-config.php`, environment variables), serta **skema/dump database (MySQL)** **tidak disertakan** dan **tidak akan dipublikasikan** dalam repositori ini.
 > 2. Seluruh kredensial akses, endpoint internal, dan data pengguna/mahasiswa bersifat rahasia dan dilindungi oleh kebijakan institusi.
