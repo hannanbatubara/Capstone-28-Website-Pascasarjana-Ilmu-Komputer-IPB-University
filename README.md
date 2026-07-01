@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Website Pascasarjana Ilmu Komputer IPB University
+# Website Pascasarjana Ilmu Komputer IPB University
 ### *Company Profile & Academic Information System*
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Confidentiality Notice
+## Confidentiality Notice
 
 > **PERINGATAN KERAHASIAAN (CONFIDENTIALITY NOTICE)**
 >
@@ -24,22 +24,22 @@
 >
 > 1. **Source code inti** (PHP core, child-theme functions, custom plugin), **file konfigurasi server** (`.htaccess`, `wp-config.php`, environment variables), serta **skema/dump database (MySQL)** **tidak disertakan** dan **tidak akan dipublikasikan** dalam repositori ini.
 > 2. Seluruh kredensial akses, endpoint internal, dan data pengguna/mahasiswa bersifat rahasia dan dilindungi oleh kebijakan institusi.
-> 3. Konten dalam repositori ini **murni bersifat deskriptif-teknis**, berfokus pada pemaparan **Arsitektur Informasi**, **UI/UX Design Decision**, dan **implementasi kustomisasi Front-End tingkat lanjut** yang dikerjakan secara langsung oleh penulis.
+> 3. Konten dalam repositori ini **murni bersifat deskriptif-teknis**, berfokus pada pemaparan **Arsitektur Informasi**, **UI/UX Design Decision**, dan **implementasi kustomisasi Front-End tingkat lanjut** yang dikerjakan secara langsung oleh tim Capstone-28.
 > 4. Cuplikan kode (*code snippet*) yang ditampilkan pada dokumen ini adalah **contoh ilustratif** dari teknik yang diterapkan, bukan salinan langsung dari basis kode produksi.
 
 ---
 
-## 📖 Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini merupakan pengembangan dan pemeliharaan **website resmi Sekolah Pascasarjana Ilmu Komputer, IPB University**, yang berfungsi sebagai *company profile* institusi sekaligus **sistem informasi akademik** bagi calon mahasiswa, mahasiswa aktif, dan alumni program studi S2 dan S3 Ilmu Komputer.
 
-Dibangun di atas platform **WordPress 7.0** dengan basis tema **Mitech**, situs ini dikelola dalam skala menengah-besar dengan lebih dari **60 halaman terstruktur**, mencakup informasi akademik, admisi, kemahasiswaan, hingga repositori dokumen unduhan.
+Dibangun di atas platform **WordPress 7.0** dengan basis tema **Mitech**, situs ini dikelola dalam skala menengah-besar dengan lebih dari **60 halaman terstruktur**, mencakup profil, informasi akademik, admisi, kemahasiswaan, hingga berita.
 
 Fokus utama kontribusi teknis pada proyek ini terletak pada **rekayasa Front-End tingkat lanjut**, khususnya dalam menyelaraskan keterbatasan *page builder* (WPBakery) dengan standar desain *pixel-perfect* dan responsivitas lintas perangkat.
 
 ---
 
-## 🛠️ Tumpukan Teknologi (Tech Stack)
+## Tumpukan Teknologi (Tech Stack)
 
 | Kategori | Teknologi | Fungsi Implementasi |
 |---|---|---|
@@ -58,7 +58,7 @@ Fokus utama kontribusi teknis pada proyek ini terletak pada **rekayasa Front-End
 
 ---
 
-## 🎨 Highlight Teknis Front-End
+## Highlight Teknis Front-End
 
 Bagian ini menjadi inti dari kontribusi teknis pada proyek, di mana penulis melakukan intervensi langsung terhadap lapisan presentasi (*presentation layer*) untuk mengatasi keterbatasan bawaan *page builder* dan mencapai standar visual tingkat enterprise.
 
@@ -124,7 +124,7 @@ Salah satu tantangan teknis signifikan adalah menangani **elemen DOM kosong** (*
 
 ---
 
-## 🗂️ Peta Situs (Sitemap)
+## Peta Situs (Sitemap)
 
 Struktur informasi disusun secara hierarkis untuk mengakomodasi kebutuhan navigasi berbagai segmen pengguna (calon mahasiswa, mahasiswa aktif, dan alumni):
 
@@ -151,7 +151,7 @@ Struktur informasi disusun secara hierarkis untuk mengakomodasi kebutuhan naviga
 
 ---
 
-## 👤 Peran & Tanggung Jawab
+## Peran & Tanggung Jawab
 
 | Area Tanggung Jawab | Deskripsi |
 |---|---|
