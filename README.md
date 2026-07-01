@@ -64,7 +64,7 @@ Bagian ini menjadi inti dari kontribusi teknis pada proyek, di mana penulis mela
 
 ### 1. Arsitektur Layout Direktori Dosen (CSS Grid & Flexbox)
 
-Direktori dosen, sebagai komponen dengan volume data terstruktur tertinggi pada situs — dibangun menggunakan kombinasi **CSS Grid** untuk kerangka tata letak dua dimensi (*macro-layout*) dan **Flexbox** untuk penyelarasan komponen kartu profil secara dinamis (*micro-layout*), menggantikan pendekatan *shortcode* bawaan yang kaku dan tidak fleksibel.
+Direktori dosen sebagai komponen dengan volume data terstruktur tertinggi pada situs — dibangun menggunakan kombinasi **CSS Grid** untuk kerangka tata letak dua dimensi (*macro-layout*) dan **Flexbox** untuk penyelarasan komponen kartu profil secara dinamis (*micro-layout*), menggantikan pendekatan *shortcode* bawaan yang kaku dan tidak fleksibel.
 
 ```css
 /* Ilustrasi: Kerangka Grid Direktori Dosen */
