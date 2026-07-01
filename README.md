@@ -170,7 +170,8 @@ Struktur informasi disusun secara hierarkis untuk mengakomodasi kebutuhan naviga
 
 <div align="center">
 
-**© Sekolah Pascasarjana Ilmu Komputer, IPB University**
-*Dokumen ini disusun untuk keperluan portofolio teknis dan tidak merepresentasikan basis kode produksi secara utuh.*
+**© Capstone - 28**
+
+*Dokumen ini disusun untuk keperluan pengumpulan laporan dan tidak merepresentasikan basis kode produksi secara utuh.*
 
 </div>
