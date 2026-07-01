@@ -146,7 +146,12 @@ Struktur informasi disusun secara hierarkis untuk mengakomodasi kebutuhan naviga
 │   └── 📄 Informasi Pendaftaran
 │
 └── 📁 Unduhan Dokumen
-    └── 📄 Repositori Formulir & Berkas Akademik
+│    └── 📄 Repositori Formulir & Berkas Akademik
+│
+📁 Berita
+│
+│
+📁 Tesimoni Alumni
 ```
 
 ---
